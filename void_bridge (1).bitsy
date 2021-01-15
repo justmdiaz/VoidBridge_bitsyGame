@@ -1,0 +1,1161 @@
+Void Bridge
+
+# BITSY VERSION 7.2
+
+! ROOM_FORMAT 1
+
+PAL 0
+NAME VoidTile1
+142,188,151
+45,65,50
+162,47,3
+
+PAL 1
+NAME Evil
+0,0,0
+3,233,26
+250,248,255
+
+PAL 2
+NAME Good
+82,255,250
+33,104,108
+2,255,105
+
+PAL 3
+82,255,0
+255,0,144
+3,255,69
+
+PAL 4
+54,255,0
+255,0,206
+0,235,255
+
+PAL 5
+79,0,255
+255,0,47
+0,255,45
+
+ROOM 0
+s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s
+s,s,s,s,s,s,s,s,0,j,l,0,0,s,s,s
+s,s,s,s,s,s,s,b,0,k,m,0,0,s,s,s
+s,s,s,s,s,s,c,b,0,0,0,0,0,s,s,s
+s,s,s,s,s,b,0,0,0,0,0,0,d,s,s,s
+s,s,s,s,b,0,0,0,0,0,0,0,0,d,s,s
+s,s,s,b,b,0,t,0,0,0,0,0,0,0,d,s
+s,s,s,b,0,0,0,0,0,0,0,0,0,0,w,s
+s,s,b,0,0,0,0,0,0,0,0,0,0,0,d,s
+s,b,0,0,0,0,0,0,g,0,0,0,0,0,0,v
+s,t,0,0,0,0,0,h,s,s,i,g,0,i,0,0
+s,u,c,0,0,0,0,b,d,c,s,s,s,s,g,s
+s,u,0,0,0,0,0,0,0,0,h,d,d,s,s,s
+s,u,0,0,0,f,0,0,0,0,0,0,0,c,d,s
+s,u,b,0,0,0,f,0,0,0,0,0,0,g,s,s
+s,s,0,0,0,0,0,0,0,0,0,0,g,s,s,0
+NAME VoidBridge Entrance
+ITM 0 6,13
+EXT 9,2 1 3,14 FX fade_w DLG 5
+PAL 0
+
+ROOM 1
+18,18,18,18,18,18,q,18,18,q,q,18,18,18,18,18
+18,18,10,18,18,q,q,q,q,q,q,18,0,0,18,18
+18,z,15,14,q,q,q,q,q,q,q,q,0,0,18,18
+18,11,16,13,q,q,q,q,q,q,q,17,17,18,18,q
+18,18,17,17,17,17,q,q,q,q,q,17,17,q,q,q
+18,q,17,17,17,17,17,17,17,q,q,q,17,q,q,q
+q,q,q,q,q,q,17,17,17,q,q,q,17,q,q,q
+q,q,q,q,q,q,q,q,17,17,q,q,17,q,q,q
+q,q,q,q,q,q,q,q,17,17,17,17,17,q,q,q
+q,q,q,q,q,q,q,q,q,q,17,17,17,q,q,q
+17,17,17,q,q,q,q,q,q,17,17,17,q,q,q,q
+17,17,q,q,q,q,q,q,17,17,17,q,q,q,q,q
+17,17,q,q,q,q,17,17,17,17,17,q,q,q,q,q
+17,17,17,q,q,q,17,17,17,q,q,q,q,q,q,q
+17,17,17,17,17,17,17,17,17,q,q,q,q,q,q,q
+17,17,17,17,17,q,q,q,q,q,q,q,q,q,q,q
+NAME Void1
+ITM 0 9,11
+ITM 0 1,10
+EXT 2,2 2 14,13
+PAL 0
+
+ROOM 2
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q
+q,q,q,q,0,0,0,0,0,0,0,0,q,q,q,q
+q,q,q,q,0,0,19,1a,1b,1c,0,0,q,q,q,q
+q,q,q,0,0,0,0,0,0,0,0,0,q,q,q,q
+q,q,q,q,0,0,1c,1a,1d,1e,1f,0,q,17,17,17
+q,q,q,q,q,0,0,0,0,q,q,q,q,17,17,17
+q,q,q,q,q,0,1g,1c,19,0,17,17,17,17,17,17
+q,q,q,q,q,0,0,0,q,17,17,17,17,17,17,17
+q,q,q,q,q,q,0,1h,1i,0,17,17,17,17,17,17
+NAME FateSelection
+EXT 10,13 3 8,15 FX fade_w DLG d
+EXT 10,15 3 8,15 FX fade_w DLG f
+PAL 0
+
+ROOM 3
+1j,1j,1j,1j,1j,1j,q,1k,1k,1k,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,1k,1k,1k,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+1j,1j,1j,1j,1j,1j,q,0,0,0,q,1j,1j,1j,1j,1j
+NAME Ending
+EXT 8,15 2 10,13
+END e 8,1
+PAL 1
+
+TIL 10
+10101011
+01111101
+11111110
+01101111
+01100011
+10011001
+00101000
+01101000
+>
+11111111
+11100111
+11111011
+10001101
+01100010
+10011001
+00101000
+01101000
+NAME VoidEntrance2
+
+TIL 11
+11001101
+10000111
+11011101
+01001011
+00101100
+11010011
+11010011
+11101100
+>
+11001101
+01000111
+01011101
+11001011
+11101100
+01110011
+10110011
+11011100
+NAME VoidEntrance3
+
+TIL 12
+01000100
+01110100
+10011111
+01110011
+10101110
+11111111
+11111111
+11111111
+>
+01000100
+11110100
+10010010
+10101101
+11111111
+11111111
+11111111
+11111111
+NAME VoidEntrance4
+
+TIL 13
+00011011
+00110001
+10000011
+01101111
+11011110
+01111011
+10010011
+11111111
+>
+00011001
+00110001
+10000001
+11111011
+11010011
+01001111
+10111111
+11111111
+NAME VoidEntrance5
+
+TIL 14
+00111101
+10010100
+10001110
+01100110
+01100101
+01100111
+11010001
+10010011
+>
+00100111
+10010111
+10001011
+01100101
+01100111
+01100101
+11010011
+10010001
+NAME VoidEntrance6
+
+TIL 15
+00101000
+00111110
+10011001
+10110001
+00010000
+01011111
+01100010
+00110100
+NAME VoidEntranceCenter1
+
+TIL 16
+01110000
+00101010
+00011001
+00110001
+10001001
+01001110
+01101100
+00000000
+NAME VoidEntranceCenter2
+
+TIL 17
+01111110
+11111111
+11011111
+10011111
+11111011
+11111111
+10111110
+00111111
+NAME VoidBGRD1
+
+TIL 18
+11110000
+00011111
+00000000
+11111001
+00001111
+00000000
+00001111
+11111000
+>
+00001111
+11111000
+00000000
+00001111
+11111000
+00000000
+11110000
+00011111
+WAL true
+
+TIL 19
+01111110
+01000000
+01000000
+01000000
+01111110
+00000010
+00000010
+01111110
+NAME S
+
+TIL b
+11111110
+10110010
+10100111
+11011100
+01110011
+01000011
+11010010
+10010000
+>
+11111111
+10110010
+11100110
+01111100
+10110011
+00100010
+11110001
+10010000
+WAL true
+
+TIL c
+11000111
+10100011
+10011001
+11001101
+01000000
+00000000
+00000000
+00000000
+>
+11111111
+00110111
+00001001
+10001101
+00000000
+00000000
+00000000
+00000000
+WAL true
+
+TIL d
+01111010
+01101111
+01011101
+10011101
+01101011
+00000011
+00000001
+00000000
+>
+01011111
+01110101
+01011111
+10001101
+01001010
+00011010
+00000001
+00000000
+
+TIL e
+00000000
+00011000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME sign
+
+TIL f
+11001100
+11101100
+01111100
+01011111
+00111110
+01101111
+10000111
+00001101
+>
+01001000
+10100100
+01111100
+01010010
+00111101
+01001110
+00000111
+00001100
+NAME Crack1
+WAL true
+
+TIL g
+00001010
+00000111
+00000011
+00001111
+00001011
+00111011
+01111111
+01111111
+WAL true
+
+TIL h
+00011111
+00111111
+00111111
+00011111
+00001001
+00111010
+00000011
+00000001
+WAL true
+
+TIL i
+00000000
+00001000
+00000101
+10011111
+11001001
+10111111
+11111111
+11111111
+
+TIL j
+00101011
+01010011
+10100100
+10101101
+11001011
+01010111
+01010111
+01010111
+>
+00001111
+00011011
+00111100
+00101100
+01111000
+01010000
+01110000
+01010000
+
+TIL k
+01010111
+01010111
+00000011
+10101001
+10100101
+01010010
+00101001
+00010100
+>
+01110000
+01010000
+00110000
+00101000
+00111100
+00010110
+00001101
+00000111
+
+TIL l
+11011010
+01101101
+00110100
+10010110
+11011010
+11001010
+11101111
+11100101
+>
+11111000
+01101100
+00111100
+00010110
+00011110
+00001010
+00001111
+00001011
+
+TIL m
+11101010
+11101010
+11001010
+10001100
+10010010
+00000101
+01001101
+10011010
+>
+00001110
+00001010
+00001110
+00001000
+00011110
+00110100
+01111100
+11011000
+
+TIL n
+00001111
+00001111
+00001111
+00010111
+00111111
+00111111
+00111111
+00001100
+NAME cloud1
+
+TIL o
+11111111
+11111111
+11111111
+11111111
+11100111
+11000111
+10000001
+00000011
+NAME cloud2
+
+TIL p
+00000011
+11000011
+01100110
+00110100
+00011110
+00000000
+00000000
+00000000
+NAME cloud3
+
+TIL q
+00000000
+00111100
+01011110
+01101100
+00000011
+01111101
+00111110
+00000000
+>
+11111111
+11001001
+10001111
+10100001
+10101001
+10000001
+11000011
+11111111
+NAME VoidTile1
+WAL true
+
+TIL s
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME voidlevel1
+WAL true
+
+TIL t
+10111000
+01010000
+11010000
+01100111
+11111101
+11110110
+11111111
+11111110
+
+TIL u
+11100110
+11101100
+11010110
+11110110
+11110000
+11111010
+11111000
+11111100
+
+TIL v
+11111111
+10010111
+11011011
+00101010
+00111010
+00011011
+00000011
+00000001
+
+TIL w
+00111111
+00011111
+00011011
+00011111
+00111001
+00010101
+00011011
+00110001
+
+TIL x
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+TIL y
+00000000
+00000000
+11000000
+01100011
+10111001
+10100101
+11101111
+11111111
+NAME VoidCracks1
+WAL true
+
+TIL z
+11111101
+11111000
+11110011
+10000101
+10001010
+10011110
+10001100
+11010110
+>
+11100101
+10001000
+11110011
+00000101
+10001010
+00011110
+10001100
+01010110
+NAME void_entrance1
+
+TIL 1a
+00011000
+00011000
+00011000
+00100100
+00100100
+01011010
+01000010
+10000001
+NAME a
+
+TIL 1b
+10000001
+10000001
+01000010
+01000010
+00100100
+00100100
+00011000
+00011000
+NAME v
+
+TIL 1c
+11111111
+10000000
+10000000
+10000000
+11111000
+10000000
+10000000
+11111111
+
+TIL 1d
+11100000
+10011000
+10000100
+10000010
+10001100
+10110000
+10011000
+10001100
+
+TIL 1e
+11111111
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+NAME t
+
+TIL 1f
+10000001
+10000001
+10000001
+10000001
+11111111
+10000001
+10000001
+10000001
+
+TIL 1g
+10000010
+10000010
+01000100
+01101100
+00111000
+00010000
+00010000
+00010000
+
+TIL 1h
+11000001
+11100001
+10100001
+10010001
+10011001
+10001101
+10000101
+10000011
+
+TIL 1i
+00111100
+01100110
+01000010
+10000001
+10000001
+01000010
+01100110
+00011000
+
+TIL 1j
+01100000
+01011000
+00111010
+00011100
+00010100
+01001100
+01011011
+11111111
+>
+00000100
+00010110
+00110110
+00101100
+01111100
+00111001
+01111100
+11111111
+
+TIL 1k
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+>
+11100111
+11000011
+10100101
+01100110
+11100111
+11000011
+10100101
+01100110
+
+SPR A
+00111000
+00111000
+00010000
+00111000
+01010100
+01111100
+00101000
+00101000
+>
+00111000
+00101000
+00010000
+00101000
+00000000
+01111100
+00101000
+00101000
+POS 0 8,13
+
+SPR a
+00000000
+00011000
+01100110
+01110110
+01111110
+00011000
+00011000
+00011000
+NAME sign
+DLG 0
+POS 0 10,13
+
+SPR b
+00000001
+00000010
+00000100
+00000100
+00000110
+00000011
+00000001
+00000011
+NAME Being1
+DLG 2
+POS 0 7,4
+
+SPR c
+10000000
+01000000
+00100000
+01100000
+01000000
+10000000
+10000000
+11000000
+NAME being2
+DLG 3
+POS 0 8,4
+
+SPR d
+11000000
+11100000
+11100000
+10100000
+11000000
+01000000
+01000000
+01000000
+NAME being3
+DLG 6
+POS 0 8,5
+
+SPR e
+00000011
+00000111
+00000111
+00000101
+00000011
+00000010
+00000010
+00000010
+NAME being4
+DLG 7
+POS 0 7,5
+
+SPR f
+00000000
+00000000
+00010100
+00101010
+00101010
+00010100
+00000000
+00000000
+>
+00000000
+01100011
+01000001
+00101010
+00101010
+01000001
+01100011
+00000000
+NAME orb
+DLG 4
+
+SPR g
+00000000
+00001000
+00010101
+00101011
+01101010
+01010100
+00001000
+00000000
+>
+00000000
+00101010
+01001001
+00010100
+00010100
+01001001
+00101010
+00000000
+NAME orb1_2
+DLG 8
+
+SPR h
+00000001
+00000010
+00000100
+00000100
+00000110
+00000011
+00000001
+00000011
+NAME Being1_2
+POS 1 12,1
+
+SPR i
+10000000
+01000000
+00100000
+01100000
+01000000
+10000000
+10000000
+11000000
+NAME Being2_2
+POS 1 13,1
+
+SPR j
+11000000
+11100000
+11100000
+10100000
+11000000
+01000000
+01000000
+01000000
+NAME Being3_2
+POS 1 13,2
+
+SPR k
+00000011
+00000111
+00000111
+00000101
+00000011
+00000010
+00000010
+00000010
+NAME Being4_2
+DLG a
+POS 1 12,2
+
+SPR l
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR n
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR o
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+
+SPR p
+00010000
+00010000
+00010000
+11101110
+00010000
+00010000
+00010000
+00000000
+>
+00000100
+10001000
+01010000
+00101000
+00010100
+00100010
+01000000
+00000000
+DLG b
+POS 2 9,15
+
+SPR q
+01000000
+00100010
+00010100
+00101000
+01010000
+10001000
+00000100
+00000000
+>
+00010000
+00010000
+00010000
+11101110
+00010000
+00010000
+00010000
+00000000
+NAME Yes
+POS 2 9,13
+
+ITM 0
+00000000
+00000000
+00000000
+00010100
+00101010
+00101010
+00010100
+00000000
+>
+00000000
+00000000
+01100011
+01000001
+00101010
+00101010
+01000001
+01100011
+NAME orbP_
+DLG 1
+
+DLG 0
+KEMUEL: Wher... Where am I?.. These dreams, they're getting real now. What is going on with me. What is going on with  my body, it is flickering, but why?
+NAME cat dialog
+
+DLG 1
+"""
+{
+  - {item "0"} == 0 ?
+    UNKNOWN VOICE: I knew you weren't normal. We let you in our homes and treated you with compassion and all you have brought to us is pain and grief.
+    {pg}
+    KEMUEL: I'm so sorry Rachel I did not mean for all this trouble to come to you people.
+}{
+  - {item "0"} == 1 ?
+    UNKNOWN VOICE: There's a kid in the middle of the road, we can't just leave him there Robert.
+    {pg}
+    ROBERT: Laila it's the middle of the night we can't just stop in the middle of the road. It's....LAILA: We have to, it might need our help ROBERT.
+    {pg}
+    LAILA: We have to, it might need our help ROBERT. 
+    *Car stops*ROBERT: Laila.... This baby is glowing. What is going on, is he even one of us???
+}{
+  - {item "0"} == 2 ?
+    LAILA: You can't just come into our homes and steal and destroy anything you want... What is wrong with you people
+    {pg}
+    UNKNOWN VOICE: Lady, what my group and I do is none of your business but since you are being nosy, maybe I should teach you all what we do to people that stand in our way...
+    {pg}
+    *UNKNOWN MAN grabs person next to LAILA and shoots them in their chest*
+    UNKNOWN MAN: Was this what you wanted woman... Blood is in your hands now, you gonna be able to live with that in your head.{shk}LAILA: NOOOOOO!!!!{shk}
+}
+"""
+NAME tea dialog
+
+DLG 2
+ETERNAL BEING: I know that you have many questions... Why are you here?... Where am I?... Who am I? I think that if you are seeking answers for these questions it is best for you to jump through the portal 
+NAME Being1 dialog
+
+DLG 3
+ETERNAL BEING: I know that you have many questions... Why are you here?... Where am I?... Who am I? I think that if you are seeking answers for these questions it is best for you to jump through the portal 
+NAME being2 dialog
+
+DLG 4
+"""
+UNKNOWN VOICE: I knew you weren't normal. We let you in our homes and treated you with compassion and all you have brought to us is pain and grief.
+KEMUEL: I'm so sorry Rachel I did not mean for all this trouble to come to you people.
+UNKNOWN VOICE: Go to hell you freak!
+"""
+NAME orb dialog
+
+DLG 5
+"""
+VOID: The world you inhabit is in great danger and the severity is close to no return. You have become the only being that can save the people of you world. Find all the fragments I have laid out for you. It will help you understand what is really going on.
+{pg}
+{shk}**entering the fracture of the VOID**{shk}
+"""
+NAME exit narration 1
+
+DLG 6
+ETERNAL BEING: I know that you have many questions... Why are you here?... Where am I?... Who am I? I think that if you are seeking answers for these questions it is best for you to jump through the portal 
+NAME being3 dialog
+
+DLG 7
+ETERNAL BEING: I know that you have many questions... Why are you here?... Where am I?... Who am I? I think that if you are seeking answers for these questions it is best for you to jump through the portal 
+NAME being4 dialog
+
+DLG 8
+"""
+UNKNOWN VOICE: You will never be as good as any of the people in this town. Hell, we don't know what you are. You clearly don't deserve any empathy.
+{pg}
+KEMUEL: I keep remembering 
+things from my past as if this place is trying to teach me something.... But what is it.
+
+"""
+NAME orb2 dialog
+
+DLG 9
+ 
+
+DLG a
+"""
+ETERNAL Being: As you can see, you were never from that world, but from what essence that created this place. You are an Eternal just like I am, but a special one indeed....
+You were never meant to fit in with the people from your home. These orbs that you've been picking up represents fragments of your life that have defined who you are, whether good or bad. Now it's up to you to decide whether you save the people from earth or let them victims to their own evil. Go through the fracture and decide
+"""
+NAME Being4_2 dialog
+
+DLG b
+{clr2}{shk}ETERNAL ONE: Yeah I wouldn't want to save them either. Your decision is respected.{shk}{clr2}
+NAME sprite p dialog
+
+DLG c
+"""
+{
+  - {item "1"} >= 1 ?
+    {property locked false}
+    The key opens the door!
+  - else ?
+    {property locked true}
+    The door is locked...
+}
+"""
+NAME locked exit 1
+
+DLG d
+ETERNAL BEING: Spoken like a true hero.
+NAME exit dialog 1
+
+DLG e
+VOID: Go on and accomplish your destiny!
+NAME ending 1
+
+DLG f
+ETERNAL BEING: Let them suffer what they truly deserve.
+NAME exit narration 2
+
